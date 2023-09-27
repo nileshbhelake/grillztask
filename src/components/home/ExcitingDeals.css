@@ -1,0 +1,37 @@
+/* .Excontainer {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+} */
+
+/* .headingContainer {
+  text-align: center;
+  border: "5px solid #000";
+  margin: 10px;
+} */
+
+.googleImg {
+  height: 50px;
+  padding: 5px;
+}
+/* .dotImg {
+  position: absolute;
+  align-items: center;
+  height: 300px;
+  width: "100%";
+} */
+
+.mobileImg {
+  position: absolute;
+  margin-top: "50%";
+  left: "20%";
+}
+
+/* .vegImage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* height: 400px;
+  width: 200px;
+  margin-left: -50px;
+  margin-top: -30px; */

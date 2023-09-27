@@ -1,0 +1,43 @@
+.HDContainer {
+  background-color: aqua;
+  display: flex;
+  padding: 50px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxRey15fHdOIgKktW8_5Fwz9fyNFFebYlhPts0unGQ&s");
+  background-position: fixed;
+}
+.HDimage {
+  background-color: #fafafa;
+  padding: 30px;
+  transition: 0.5s;
+}
+.HDimage:hover {
+  transform: scaleX(1.2);
+}
+
+.content {
+  text-align: center;
+  transition: 0.5s;
+  text-decoration-color: #44dcdf;
+}
+.content:hover {
+  text-decoration: underline;
+  text-decoration-color: #3d7475;
+}
+
+.arrowLeft {
+  display: flex;
+  rotate: 180deg;
+  margin-left: -30px;
+  transition: 0.5s;
+}
+.arrowLeft:hover {
+  transform: scale(1.1);
+}
+.arrowRight {
+  display: flex;
+  transition: 0.5s;
+  margin-left: 150px;
+}
+.arrowRight:hover {
+  transform: scale(1.1);
+}

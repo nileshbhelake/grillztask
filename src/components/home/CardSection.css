@@ -1,0 +1,53 @@
+.hidden {
+  position: absolute;
+  bottom: 0;
+
+  color: azure;
+  background-color: #3d7475;
+  width: 350px;
+  padding: 10px;
+  opacity: 0.8;
+}
+.hidden:hover {
+  opacity: 1;
+  color: #2e266f;
+}
+
+.parenthidden {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  transition: linear;
+}
+.parenthidden:hover {
+  transform: scale(1.04);
+}
+
+.hiddenBottm {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  transition: linear;
+}
+.hiddenBottm:hover {
+  transform: scale(1.04);
+}
+
+.seemore {
+  width: 50px;
+  transition: linear;
+}
+.seemore:hover {
+  transform: scaleX(0.9);
+  background-color: blanchedalmond;
+  padding: 5px;
+}
+.seemorebutton {
+  width: 30px;
+  margin-left: 10px;
+  color: black;
+}
+.container1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR35VJpjuRDZ6y7Sr7zNg4JS_fnIcPwi1sjg0j5VeTKUA&s");
+  background-attachment: fixed;
+}
