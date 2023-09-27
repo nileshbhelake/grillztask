@@ -1,0 +1,41 @@
+.footerImg {
+  transition: 0.5s;
+}
+.footerImg:hover {
+  transform: scale(0.9);
+}
+
+.Fcontent {
+  text-align: center;
+  color: #2e266f;
+  background-color: #fff;
+}
+.input {
+  outline: none;
+  border: "1px solid #2e266f";
+  width: 200px;
+  background-color: #fff;
+}
+
+.Fimage {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAPFBMVEX////+/v7z8/P7+/vt7e3m5ubp6en4+Pjw8PBubm52dnZiYmKAgIBdXV1ycnLj4+NRUVFoaGiIiIhXV1ej9QvCAAAEwElEQVR4nO2b0XajQAiGh8GosWnc7L7/u652K3xYZtM9e9OeM/9N0QCijfwDTErp6Ojo6Ojo6Oj4tpANOMDpwvOQg7GZSDhP2xKcpiFUqFcYbuc11REz3WSFnOi8ye9XFlHzH0Ko18GPXgbzP11X17ldTGVexncdLbvt8RQ2W9Opy+rybbTbqtc0BBnwdAb152ryfh53ZbLutv5sg47bwr8o7rajo6PjSyMljrcPJP9Mi2fHPeGZvlLnZGIuU9RXZM0fgyXo6eVyXEzr3XP+bFwgb7Zm8AMccQVH3EejkfqSRXDiCM/nO0eY7Yz7Guymioy4sRF+oL/xxXGgMqchfFgBmCTGNXI2OTQa/6y4MEiXFB0dHQ1IvuD+s7bHkesoThfkjugUfpBr8teSb+upjvAXGitZ9yknffph8FjuNiKYcDDhqiZvOR7JEawgZcrkUli9OKnsPtMY6nU0WVELTM4LGuoC5PzZ64iij6yOEJlvnrlbdcSIW7x4TpZVUx25eK2hK3L4xR+zjiBQ+FS/21MUkJXfHT5yaIf/s+sEjxqOPmo0Q0CVGgreVjkq/G4S/Oaxrm0H0dHRcSByBPK/hvMu09KoTEgYIaNH93kE7P+YvKUo7xed+1GWHV3ewNVxRfxuq5L2mkq9wfY+ex1xs/yv088L9K2OkLp4b0rv4IifI2SvDOotDUGQ2wvy/8YFnnwvgSMKdNwYfoS8EGzTEDo6Ojq+HkSZ/+fAC57cA0dgdVyxNp1BU/lsQlocsXhuF6spRHWxXlOYR7j+Vpk4L0hhHUF95wudliyCrUYAR4w+ZSkjaoTB87zarEG3ugAcAT9xHgG+aMwjckKXvHZ4D+8IJywjYiWRfKB9Fd/R8Rx7n5cHRzZSvJeq2jZ4l/T0Eodu01n5HEKcTUMdB8Eg9g4Qs0HDtZ61u0KNwDV/mdFxQY9IJ3epFS0I+EGfqoR6pNFreqD78sqZteV5rQty/hV1gduq/AJHeJ9KfMa9VTuPNAQynOd53ecO/mzJfAPqiAHPf8509hh8flHyeUTM7OwLCTgrbQadeIF+IvNYyLl2zkcS+1q5gbS9hs7jsxg6Or4bnn+TP/Vdb3IEDkhHbqKStZR3JiAbPb3uX2gqaNtVmV7CDDpyYGNrVQpthHCaWR+nVV+wr+kOjnhgZv0LdUQ+s95sj1X8PuPOY0hn1lLCvqYwg5ZUzvc+vcmoKdIQOjo6Or4g2P9RzCNae19LdVrYe02+oqcfZFOXNZ9ZC3tN5W77moreMFO4hXmEzywWrMqvrV4TOKXVawIP2gx6+7N62VTWdB5RZFU3WPGkVvSafMbRmEf8dV3drBIOl82Vyieou6Oj4wvj/95b+SD8O5j/Z/aIsFMm5HxcFPOLkveswm8l8t9HYAa9qS8zOALzCM6gMbN2jtiqmjCzDhxhMUzpzDrufR3x+4gx/Y3DJh90JyXMrOM8IpGlUUfE/WucNRTupwu9SUyG8t5ka1PEP9a+n/t2fcZrp6mO74RWRyT2cFsmYWcrTz+/QuYj9peRI+Irjw2JcVduM+J8QyIU4jxaKEuqA9f18Bt/Q6cNOZ9Z770gP3q1nF/CPOKG30d43SH1gTqC+2aXuA/qCKJefwO19hA73Nl6ZgAAAABJRU5ErkJggg==");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.Flink {
+  text-decoration: none;
+  margin-left: 20px;
+  /* justify-content: center; */
+  color: #2e266f;
+}
+.in {
+  margin-left: 10px;
+  margin-top: 300px;
+}
+
+.mainlink {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
